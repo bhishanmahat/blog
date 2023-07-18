@@ -8,7 +8,7 @@ p:empty {
 
 @layer components {
   .btn-main {
-    @apply px-2 py-1 bg-rose-500 text-neutral-200 rounded-sm cursor-pointer;
+    @apply px-2 py-1 bg-rose-500 text-white rounded-sm cursor-pointer;
   }
   /* .tag {
     @apply px-2 py-0 border border-gray-700 dark:border-neutral-300 rounded-full;
@@ -24,11 +24,11 @@ p:empty {
 
 @layer utilities {
   .dark-theme {
-    @apply bg-stone-200 dark:bg-zinc-800  text-gray-700  dark:text-neutral-300;
+    @apply bg-white dark:bg-zinc-800  text-gray-700  dark:text-neutral-300;
   }
 
   .dark-theme-footer {
-    @apply bg-stone-300 dark:bg-zinc-900  text-gray-700  dark:text-neutral-300;
+    @apply bg-stone-200 dark:bg-zinc-900  text-gray-700  dark:text-neutral-300;
   }
 
   .theme-transition {

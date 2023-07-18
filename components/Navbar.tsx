@@ -24,7 +24,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`z-10 w-full fixed top-0 left-0 shadow dark:shadow-dark backdrop-blur-sm bg-stone-200 dark:bg-zinc-800 sm:bg-stone-200/70 dark:bg-zinc-800/70`}
+      className={`z-10 w-full fixed top-0 left-0 shadow dark:shadow-dark backdrop-blur-sm bg-white/70 dark:bg-zinc-800/70`}
     >
       <div className="max-w-7xl px-3 h-14 m-auto flex justify-between items-center py-4 font-libreFranklin">
         <div className="">

@@ -3,11 +3,8 @@ import React from "react";
 import Image from "next/image";
 import { urlForImage } from "@/sanity/lib/image";
 import getFormattedDate from "@/lib/getFormattedDate";
-import { HiArrowUpRight } from "react-icons/hi2";
 import Link from "next/link";
-import { getPosts } from "@/sanity/lib/client";
 import TopPicks from "./TopPicks";
-import TopPicksAltTwo from "./TopPicks";
 import { getBanner } from "@/sanity/lib/client";
 
 const Hero = async () => {

@@ -50,7 +50,7 @@ type Props = {
 export default function RootLayout({ children }: Props) {
   return (
     <html lang="en" className={`${a_garamond_pro.variable} ${libreFranklin.variable}`}>
-      <body className="font-body dark-theme min-h-screen">
+      <body className="min-h-screen dark-theme">
         <Navbar />
         <div className="max-w-7xl mx-auto">{children}</div>
         <Footer />
